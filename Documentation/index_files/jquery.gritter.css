@@ -1,0 +1,90 @@
+/* the norm */
+#gritter-notice-wrapper {
+	position:fixed;
+	top:20px;
+	right:20px;
+	width:301px;
+	z-index:9999;
+}
+#gritter-notice-wrapper.top-left {
+    left: 20px;
+    right: auto;
+}
+#gritter-notice-wrapper.bottom-right {
+    top: auto;
+    left: auto;
+    bottom: 20px;
+    right: 20px;
+}
+#gritter-notice-wrapper.bottom-left {
+    top: auto;
+    right: auto;
+    bottom: 20px;
+    left: 20px;
+}
+.gritter-item-wrapper {
+	position:relative;
+	margin:0 0 10px 0;
+	background:rgba(000,000,000,.8); /* ie7/8 fix */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+}
+
+.gritter-item p {
+	padding:0;
+	margin:0;
+	word-wrap:break-word;
+}
+.gritter-close {
+	display:none;
+	position:absolute;
+    right: 0px;
+    top: 0px;
+	cursor:pointer;
+	width:25px;
+	height:25px;
+    background-color: #ccc;
+    border-radius: 0px 5px 0px 5px;
+    -webkit-border-radius: 0px 5px 0px 5px;
+    background-color:rgba(255,255,255,.8);
+
+}
+.gritter-close i{
+    font-size: 16px;
+    width:25px;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    color: #880a0a;
+}
+.gritter-title {
+	font-size:14px;
+	font-weight:bold;
+	padding:0 0 7px 0;
+	display:block;
+	text-shadow:1px 1px 0 #000; /* Not supported by IE :( */
+}
+.gritter-image {
+	width:48px;
+	height:48px;
+	float:left;
+}
+.gritter-with-image,
+.gritter-without-image {
+	padding:0;
+}
+.gritter-with-image {
+	width:220px;
+	float:right;
+}
+
+.full-noty{
+    color: #a5a5a5;
+}
+.full-noty .n-title{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}

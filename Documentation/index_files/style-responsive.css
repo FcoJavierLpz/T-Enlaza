@@ -1,0 +1,333 @@
+@media (max-width: 1024px)  {
+    .banner-info h1 {
+        font-size: 55px;
+    }
+    .ld-search-row .search-area input[type="text"] {
+        width: 82%;
+    }
+    .new-ticket-btn {
+        padding: 15px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 980px) {
+
+    .banner-info h2 {
+        font-size: 20px;
+    }
+
+    .banner-info h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    .banner-info p {
+        width: 100%;
+    }
+    .ld-search-row .search-area {
+        width: 80%;
+    }
+
+    .ld-search-row .search-area input[type="text"] {
+        width: 78%;
+    }
+
+    .x-box h1 {
+        margin: 18px 0 0 5%;
+    }
+
+    .logo-container {
+        margin-top: 2px !important;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .single-blog {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .search {
+        height: 41px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .attach-img img {
+        width: 100%;
+    }
+
+		.client-feed p {
+			font-size: 14px !important;
+			line-height: 1.6em !important;
+		}
+
+    .main-content {
+        margin: 20px 0;
+    }
+
+    .welcome-box {
+        margin-top: 0px;
+    }
+
+    .knowledge-base {
+        margin-bottom: 0;
+    }
+    .popular-list {
+        margin: 10px 0;
+    }
+
+    .t-info-row span, .ticket-info span {
+        margin-bottom: 20px;
+    }
+    .notification-list .t-info-row span, .notification-list .ticket-info span {
+        margin-bottom: 0px !important;
+    }
+    .theme-list.details .theme-info {
+        width: 40%;
+    }
+
+    .banner-info h2 {
+        font-size: 20px;
+    }
+
+    .banner-info h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    .banner-info p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner-bg img , .client-feed-back p {
+        width: 100%;
+    }
+
+    .client-feed-back {
+        margin: 55px 0 52px;
+    }
+
+    .ld-search-row .search-area, .btn-knowledge, .ld-search-row .search-area input[type="text"] {
+        width: 100%;
+    }
+
+    .btn-knowledge {
+        margin-top: 10px;
+    }
+
+    .ld-search-row .search-area {
+        margin-top: 20px;
+    }
+
+    .x-img {
+        margin-right: 0;
+    }
+    .x-box h1 {
+        font-size: 15px;
+        margin: 18px 0 0 5%;
+    }
+
+    .x-box h1 span i {
+        font-size: 24px;
+    }
+
+    .logo-container {
+        margin-top: 2px !important;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .main-menu li .search, .main-menu .logout {
+        display: none;
+    }
+
+    .single-blog {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+
+
+    .theme-list.details .price, .theme-list.details .purchase-btn {
+        width: 38%;
+    }
+
+    .theme-list.details .purchase-btn {
+        margin-top: 20px;
+    }
+
+    .customSelect {
+        margin: 10px 0;
+    }
+
+    a.logo {
+        margin: 5px 0 0;
+    }
+
+    .forum-list .title, .blank-ticket .t-info-row, .ticket-nav-details li .ticket-info {
+        width: 100%;
+    }
+
+    .forum-list .post {
+        text-align: left;
+        width: 50%;
+        padding-left: 10px;
+    }
+
+    .forum-list .last-post {
+        text-align: right;
+        width: 50%;
+    }
+
+    .ticket-nav-details li .ticket-status, .ticket-nav-details li .ticket-priority, .ticket-nav-details li .ticket-date, .theme-list.details .price, .theme-list.details .purchase-btn {
+        width: 33%;
+    }
+
+    .ticket-nav-details li .ticket-status {
+        padding-left: 10px;
+    }
+
+    .ticket-nav-details li .ticket-date {
+        text-align: right;
+    }
+
+    .blank-ticket .btn-danger {
+        margin-top: 20px;
+    }
+
+    .blank-ticket .pull-right {
+        float: left !important;
+    }
+
+    .knowledge-base-list .t-info-details {
+        float: left;
+        width: 83%;
+    }
+
+    .knowledge-base {
+        margin-bottom: 0;
+    }
+
+    .t-info-row span, .ticket-info span {
+        margin-bottom: 33px;
+    }
+
+    .theme-list.details .theme-info {
+        width: 78%;
+    }
+
+    .theme-list.details .theme-purcahse {
+        clear: both;
+        width: 33%;
+    }
+
+    .search{
+        height: 41px;
+    }
+    .search:focus {
+        width: 150px !important;
+    }
+
+    .banner-info h2 {
+        font-size: 20px;
+    }
+
+    .banner-info h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    .banner-info p {
+        width: 100%;
+    }
+
+    .nav > li > a {
+        padding: 10px 5px;
+    }
+
+}
+
+@media (max-width:320px) {
+
+    .t-info-row span, .ticket-info span {
+        margin-right: 4px;
+    }
+
+    .nav > li > a {
+        display: block;
+        padding: 10px 8px;
+        position: relative;
+    }
+
+    .knowledge-base-list .t-info-details {
+        float: left;
+        width: 73%;
+    }
+
+    .popular-list .knowledge-base .t-info-details {
+        float: left;
+        width: 76%;
+    }
+
+    .theme-list.details .theme-info {
+        width: 65%;
+    }
+
+    .search{
+        height: 40px;
+    }
+
+    .banner-info h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .banner-info h1 {
+        font-size:25px;
+        margin-bottom: 10px;
+    }
+
+    .banner-info p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ld-search-row .search-area, .ld-search-row .search-area input[type="text"], .btn-knowledge {
+        width: 100%;
+    }
+
+    .btn-knowledge {
+        margin-top: 10px;
+    }
+
+    .ld-search-row .search-area {
+        margin-top: 20px;
+    }
+
+    .x-box h1 {
+        font-size: 14px;
+    }
+    .x-box h1 span i {
+        font-size: 24px;
+        padding-top: 12px;
+        display: inline-block;
+    }
+    .x-img {
+        margin-top: 0px;
+        margin-right: 20%;
+    }
+}
+
+
+
+
